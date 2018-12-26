@@ -26,4 +26,4 @@ This repository is created to keep track of my progress in JavaScript30 and shar
 
 **lesson2:** playing with some css styles like transition, transform-origin. How to use cubic-bezier.
 
-**Demo:** My 2nd project is here.
+**Demo:** My 2nd project is [here](https://ellimoty.github.io/Vanilla-Javascript30/Project02-JS.CSS.Clock/html/index.html).
