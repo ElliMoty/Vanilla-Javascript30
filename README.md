@@ -36,7 +36,7 @@ This repository is created to keep track of my progress in JavaScript30 and shar
 - `:root`: this selector will always select the document's top-most element in the document tree. In an HTML document the `html` element will always be the highest-level parent, so the behavior of `:root` is predictable.
 - In CSS property names that are prefixed with `--`, like `--example-name`, represent *custom properties* that contain a value that can be used in other declarations using the `var()` function.
 - `NodeList` objects are collections of nodes, usually returned by properties such as `Node.childNodes` and methods such as `document.querySelectorAll()`. It's like an array (but it isn't). Although NodeList is not an Array, it is possible to iterate over it with `forEach()`. It can also be converted to a real Array using `Array.from()`.
-- `change`: this event is sent to an element when its value changes. This event is limited to <input> elements, <textarea> boxes and <select> elements.
+- `change`: this event is sent to an element when its value changes. This event is limited to `input` elements, `textarea` boxes and `select` elements.
 - `data-name` attributes allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes and extra properties on DOM.
 - `dataset` is an object that contains all data attributes from that specific element.
 
