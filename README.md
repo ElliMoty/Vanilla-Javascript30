@@ -6,13 +6,13 @@
   <img src="https://javascript30.com/images/JS3-social-share.png" style="max-width:100%" alt="JavaScript30" />
 </h1>
 
-This repository is created to keep track of my progress in JavaScript30 and share whatever I am learning every day with everyone who is interested. 
+This repository is created to keep track of my progress in JavaScript30 and share whatever I am learning from each project with everyone who is interested. 
 
 ---
 
 ## My daily projects
 
-### Day 1: 25 Dec 2018
+### Project 1: 25 Dec 2018
 
 **lesson1:** Learned some methods in vanilla Js! - data attributes, key event, keyCodes, `transitionend` event.
 
@@ -22,8 +22,30 @@ This repository is created to keep track of my progress in JavaScript30 and shar
 
 ---
 
-### Day 2: 26 Dec 2018
+### Project 2: 26 Dec 2018
 
 **lesson2:** playing with some css styles like transition, transform-origin. How to use cubic-bezier.
 
 **Demo:** My 2nd project is [here](https://ellimoty.github.io/Vanilla-Javascript30/Project02-JS.CSS.Clock/html/index.html).
+
+---
+
+### Project 3: 30 Dec 2018
+
+**lesson3:** 
+- `:root`: this selector will always select the document's top-most element in the document tree. In an HTML document the `html` element will always be the highest-level parent, so the behavior of `:root` is predictable.
+- In CSS property names that are prefixed with `--`, like `--example-name`, represent *custom properties* that contain a value that can be used in other declarations using the `var()` function.
+- `NodeList` objects are collections of nodes, usually returned by properties such as `Node.childNodes` and methods such as `document.querySelectorAll()`. It's like an array (but it isn't). Although NodeList is not an Array, it is possible to iterate over it with `forEach()`. It can also be converted to a real Array using `Array.from()`.
+- `change`: this event is sent to an element when its value changes. This event is limited to <input> elements, <textarea> boxes and <select> elements.
+- `data-name` attributes allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes and extra properties on DOM.
+- `dataset` is an object that contains all data attributes from that specific element.
+
+**handy pages:** The following pages helped me to finish this project and increase my knowledge.
+- [css-tricks](https://css-tricks.com)
+- [MDN](https://developer.mozilla.org)
+- [Stack Overflow](https://stackoverflow.com)
+- [jQuery](https://api.jquery.com)
+
+**Demo:** My third project is [here](https://ellimoty.github.io/Vanilla-Javascript30/Project03-CSSVariables/index.html).
+
+

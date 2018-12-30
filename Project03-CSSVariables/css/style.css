@@ -1,0 +1,42 @@
+:root {
+    --base: #253d59;   /* customized properties */
+    --spacing: 10px;     /* customized properties */
+    --blur: 10px;        /* customized properties */
+
+    background: linear-gradient(to top, #135fcd, #71a0cd, #c8d8ea);
+    background-size: cover;
+} 
+
+body {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 20px black;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 80;
+    font-size: 45px;
+}
+
+.hl {
+    color: var(--base);
+    text-shadow: 3px 3px 22px black;
+}
+
+.controls {
+    margin-bottom: 80px;
+}
+
+input {
+    width: 100px;
+    
+}
+
+img {
+    padding: var(--spacing); 
+    background: var(--base);
+    filter: blur(var(--blur));
+
+    border-radius: 5px;
+    box-shadow: 15px 15px 25px black;
+}
+
+
