@@ -50,7 +50,7 @@ This repository is created to keep track of my progress in JavaScript30 and shar
 
 --- 
 
-### Project 4: 01 Jan 2018
+### Project 4: 03 Jan 2018
 
 **lesson4:**
 - `filter` method creates an array filled with all array elements that pass a test (provided as a function. This method required a function to be run for each element in the array.
