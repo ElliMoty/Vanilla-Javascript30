@@ -71,5 +71,3 @@ const oldestToYoungest = array.sort((a, b) => a.year > b.year ? -1 : 1);
 
 **handy pages:** 
 - [w3schools](https://www.w3schools.com)
-
-**Demo:** My forth project is [here](https://ellimoty.github.io/Vanilla-Javascript30/Project04-ArrayCardioDay1/index.html).
