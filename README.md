@@ -48,4 +48,28 @@ This repository is created to keep track of my progress in JavaScript30 and shar
 
 **Demo:** My third project is [here](https://ellimoty.github.io/Vanilla-Javascript30/Project03-CSSVariables/index.html).
 
+--- 
 
+### Project 4: 01 Jan 2018
+
+**lesson4:**
+- `filter` method creates an array filled with all array elements that pass a test (provided as a function. This method required a function to be run for each element in the array.
+- `map` method: creates a new array with the results of calling a function for every array element. `map()` does not change the original array.
+- `sort` method: sorts an array alphabetically - example code to sort birthDates in descend way by using numbers 1 and -1:
+```
+const oldestToYoungest = array.sort((a, b) => a.year > b.year ? -1 : 1);
+```
+- `reduce` method: (Love this method :grin:) reduces the array to a single value and executes a provided function for each value of the array (from left-to-right).
+> It is one the most amazing methods in Javascript. That is it!
+- `Array.from` method: returns an Array object from any object with a length property or an iterable object.
+- `textContent`: gets the text content of an element.
+**Note:** This property is similar to the `innerText` property, however there are some differences:
+   1- `textContent` returns the text content of all elements, while `innerText` returns the content of all elements, except for `script` and `style` elements.
+   2- `innerText` will not return the text of elements that are hidden with CSS (`textContent` will)
+
+- `includes` method: determines whether a string contains the characters of a specified string and returns `true` if the string contains the characters, and `false` if not. This method is case sensitive!
+
+**handy pages:** 
+- [w3schools](https://www.w3schools.com)
+
+**Demo:** My forth project is [here](https://ellimoty.github.io/Vanilla-Javascript30/Project04-ArrayCardioDay1/index.html).
